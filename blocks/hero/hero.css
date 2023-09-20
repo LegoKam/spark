@@ -6,7 +6,11 @@ main .hero-container > div {
   
 main .hero-container {
   padding: 0;
+  height: 770px;
+  background-color: black;
+  z-index: unset;
 }
+
   
 main .hero {
   position: relative;
@@ -24,12 +28,11 @@ main .hero h1 {
 main .hero picture {
   position: absolute;
   z-index: -1;
-  top: 0;
-  left: 0;
-  bottom: 0;
   right: 0;
-  object-fit: cover;
   box-sizing: border-box;
+  padding-top: 241px;
+  z-index: auto;
+  padding-right: 0px;
 }
 
 main .hero img {

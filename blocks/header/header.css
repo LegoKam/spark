@@ -6,6 +6,11 @@ header .nav-wrapper {
   position: fixed;
 }
 
+span.icon.icon-spark_logo {
+  width: fit-content;
+  height: fit-content;
+}
+
 header nav {
   box-sizing: border-box;
   display: grid;
